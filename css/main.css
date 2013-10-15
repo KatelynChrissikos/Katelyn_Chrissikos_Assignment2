@@ -1,0 +1,298 @@
+/* Imports */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+body p {
+  color: #898989;
+}
+h1 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 60px;
+  color: #d44072;
+}
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+h5 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+a {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 15px;
+  color: #3cbdc8;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover {
+  color: #2bb293;
+  transition: 0.3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+}
+.tour p {
+  font-size: 12px;
+  color: #898989;
+}
+strong {
+  color: #d44072;
+}
+span {
+  color: #B91A2C;
+}
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #f6f6f6;
+}
+/* Header and Navigation */
+header {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  background: #f6f6f6;
+  height: 100px;
+}
+header h1 {
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  padding: 20px;
+}
+header a {
+  text-transform: none;
+}
+header ul {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  margin-top: 50px;
+}
+header ul li {
+  display: inline-block;
+  padding: 0 13px 0 13px;
+}
+/* Main Image */
+img#topimage {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+/* Main Content */
+article#maincolumn {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #ffffff;
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  background: #f6f6f6;
+}
+article#maincolumn h2 {
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 0 10px;
+  border-bottom: 1px solid #2bb293;
+}
+article#maincolumn .news {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #ffffff;
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px;
+  padding: 0 0 10px 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+article#maincolumn .news img {
+  margin: 10px;
+  float: left;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+article#maincolumn .news p {
+  margin-top: 10px;
+  letter-spacing: .5px;
+  line-height: 18px;
+  padding: 0 10px 10px 0;
+}
+article#maincolumn .news a {
+  font-size: 12px;
+  text-decoration: underline;
+  float: right;
+  margin-right: 10px;
+}
+/* Sidebar */
+aside#sidebar {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #f6f6f6;
+  float: none;
+  padding-bottom: 10px;
+  display: inline;
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+}
+aside#sidebar h3 {
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px 0 10px;
+}
+.tour {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  overflow: auto;
+}
+.tour img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  float: left;
+  margin: 10px;
+}
+.tour h4 {
+  color: #393939;
+  border-bottom: 1px solid #2bb293;
+  overflow: hidden;
+  margin-right: 10px;
+  padding-top: 10px;
+  line-height: 20px;
+}
+.tour p {
+  margin: 7px 0 7px 0;
+}
+.tour a {
+  font-size: 12px;
+  text-decoration: underline;
+  margin-left: 40px;
+}
+/* About */
+#about {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  height: 550px;
+  background-image: url('../images/taylor_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+#about #bio {
+  display: inline;
+  width: 380px;
+  margin: 0 10px;
+  height: 410px;
+  padding: 10px;
+  margin: 50px 0 0 80px;
+  float: left;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 10px solid #898989;
+  overflow: auto;
+}
+#about #bio p {
+  color: #393939;
+  margin-bottom: 20px;
+  text-indent: 50px;
+  line-height: 18px;
+}
+/* Tour Content */
+section#tour-content {
+  background: black;
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+}
+section#tour-content .background-image {
+  height: 700px;
+  background-image: url('../images/taylorsinging.jpg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  padding: 20px;
+}
+section#tour-content .tourdates {
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 5px solid #393939;
+  float: right;
+  padding: 10px;
+  margin: 20px 20px 0 0;
+  clear: both;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 400px;
+}
+section#tour-content .tourdates p.city {
+  float: right;
+  margin-top: -18px;
+  color: #393939;
+}
+section#tour-content .tourdates p.venue {
+  margin-top: 15px;
+}
+section#tour-content .tourdates p.date {
+  float: right;
+  margin-top: -18px;
+}
+/* Footer */
+footer {
+  display: inline;
+  float: left;
+  width: 940px;
+  margin: 0 10px;
+  height: 70px;
+}
+footer p {
+  padding-top: 20px;
+  text-align: center;
+}

@@ -1,0 +1,259 @@
+/* Imports */
+
+@import 'styles/brand.less';
+@import 'styles/typography.less';
+@import 'styles/grid.less';
+@import 'styles/mixins.less';
+
+* {
+  
+  .content-sizing();
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  background:@smokey;
+}
+
+/* Header and Navigation */
+
+header {
+  .column(12);
+   background: @smokey;
+   height:100px;
+
+  h1	{
+  	.column(8);
+  	padding:20px;
+  }
+
+  a {
+    
+    text-transform:none;
+
+  }
+
+  ul	{
+    .column(3);
+  	margin-top:50px;
+
+  li	{
+  	display:inline-block;
+  	padding:0 13px 0 13px;
+  }
+  }
+}
+
+/* Main Image */
+
+img#topimage	{
+  .column(12);
+  margin-bottom:10px;
+
+  }
+
+/* Main Content */
+
+article#maincolumn {
+  .column(8);
+  margin:0;
+  .box-sizing();
+  background:@smokey;
+
+  h2	{
+    padding:5px 10px 5px 10px;
+    margin: 0 10px 0 10px;
+    border-bottom:1px solid @green;
+
+  }
+
+  .news	{
+	
+	.box-sizing();
+  padding:0 0 10px 0;
+  overflow:hidden;
+  margin-bottom:10px;
+
+	img	{
+
+		margin:10px;
+    float:left;
+    .border-radius();
+
+	 }
+
+  p {
+    
+    margin-top:10px;
+    letter-spacing:.5px;
+    line-height:18px;
+    padding:0 10px 10px 0;
+    }
+  
+  a {
+    font-size:@basefontsize;
+    text-decoration:underline;
+    float:right;
+    margin-right:10px;
+    
+    }
+
+  }
+
+}
+
+
+/* Sidebar */
+
+aside#sidebar {
+  .aside-sizing();
+  background:@smokey;
+  float:none;
+  padding-bottom:10px;
+    .column(4);
+
+	h3	{
+    padding:5px 10px 5px 10px;
+    margin: 0 10px 0 10px;
+  }
+
+}
+
+.tour	{
+	.aside-radius();
+	margin-bottom:10px;
+  background:@white;
+  overflow:auto;
+
+
+  img {
+    .border-radius();
+    float:left;
+    margin:10px;
+  }
+
+  h4  {
+    color:@darkgrey;
+    border-bottom:1px solid @green;
+    overflow:hidden;
+    margin-right:10px;
+    padding-top:10px;
+    line-height:20px;
+  }
+
+  p {
+    margin:7px 0 7px 0;
+  }
+
+  a {
+    font-size:@basefontsize;
+    text-decoration:underline;
+    margin-left:40px;
+  }
+}
+
+
+/* About */
+
+
+#about  {
+
+  .column(12);
+  height:550px;
+  background-image:url('../images/taylor_bg.jpg');
+  background-repeat:no-repeat;
+  background-size:110%;
+
+  #bio {
+    
+    .column(5);
+    height:410px;
+    padding:10px;
+    margin:50px 0 0 80px;
+    float:left;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
+    border:10px solid @lightgrey;
+    overflow:auto;
+
+    p {
+
+      color:@darkgrey;
+      margin-bottom:20px;
+      text-indent:50px;
+      line-height:18px;
+
+    }
+
+  }
+
+}
+/* Tour Content */
+
+section#tour-content {
+
+  background:black;
+  
+  .column(12);
+
+  .background-image{
+
+  height:700px;
+  background-image:url('../images/taylorsinging.jpg');
+  background-repeat:no-repeat;
+  background-size:60%;
+  padding:20px;
+}
+
+  .tourdates  {
+
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.8);
+  border:5px solid @darkgrey;
+  float:right;
+  padding:10px;
+  margin:20px 20px 0 0;
+  clear:both;
+  .tour-radius();
+  .tour-sizing();
+
+  p.city {
+    float:right;
+    margin-top:-18px;
+    color:@darkgrey;
+
+  }
+
+  p.venue  {
+    margin-top:15px;
+
+  }
+
+  p.date  {
+
+   float:right;
+   margin-top:-18px;
+
+  }
+
+  }
+
+}
+
+
+/* Footer */
+
+footer  {
+  .column(12);
+  height:70px;
+
+  p {
+    padding-top:20px;
+    text-align:center;
+
+  }
+
+}
